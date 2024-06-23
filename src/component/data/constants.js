@@ -15,7 +15,7 @@ export const Bio = {
       "Welcome to my portfolio! I am a dedicated and creative professional with a keen eye for detail and a commitment to excellence, I bring innovative solutions to every project I undertake. Explore my work to see how I blend creativity and technical expertise to deliver outstanding results.",
     github: "https://github.com/Ankit2004meena",
     resume:
-      "https://drive.google.com/file/d/1T4Kvq2scG9NIq0igH404Rr2hv6SGcc2C/view?usp=drive_link",
+      "https://drive.google.com/file/d/1VHWub4AYcRwXYZ7b5wNeJ-hNWLbQfjIR/view?usp=drive_link",
     linkedin: "https://www.linkedin.com/in/ankit-meena-932581253/",
     Leetcode: "https://leetcode.com/u/Ankit_Meena_2004/",
 
