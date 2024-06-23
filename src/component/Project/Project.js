@@ -40,7 +40,7 @@ function Project({openModal,setOpenModal}) {
             .map((project) => (
               <ProjectCard project={project} />
             ))}
-          {projects.filter((item) => item.category == toggle).map((project) => (
+          {projects.filter((item) => item.category === toggle).map((project) => (
               <ProjectCard project={project} />
               
             ))
