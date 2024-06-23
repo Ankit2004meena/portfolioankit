@@ -5,7 +5,7 @@ import qrcode from"../image/qrcode.jpg"
 import E_cart from "../image/E-cart.jpg"
 
 export const Bio = {
-    Name: "Ankit Meena",
+    Name: "Ankit",
     roles: [
       "Full Stack Developer",
       "Electronics and Comm. Eng.",
