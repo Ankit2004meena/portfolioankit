@@ -2,7 +2,7 @@ import React from 'react'
 import TypeWriter from "typewriter-effect"
 import { HomeContainer, HomeLeft,Img, HomeRight, HomeInnerContainer, TextLoop, Title, Span, SubTitle,SocialMediaIcons,SocialMediaIcon, ResumeButton } from './HomeStyle'
 import {Bio} from "./data/constants"
-import HomeImg from "./image/HomeImg.png"
+import HomeImg from "./image/HomeImg.jpg"
 function Home() {
 
   return (

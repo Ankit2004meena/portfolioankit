@@ -1,9 +1,10 @@
-import chat from "../image/chat.jpg"
+import chat from "../image/chat.png"
 import Meal from"../image/Meal.jpg"
 import login from"../image/login.jpg"
 import qrcode from"../image/qrcode.jpg"
 import E_cart from "../image/E-cart.jpg"
-
+import internshala from "../image/internshala.png"
+import notes from "../image/notes.png"
 export const Bio = {
     Name: "Ankit Meena",
     roles: [
@@ -15,7 +16,7 @@ export const Bio = {
       "Welcome to my portfolio! I am a dedicated and creative professional with a keen eye for detail and a commitment to excellence, I bring innovative solutions to every project I undertake. Explore my work to see how I blend creativity and technical expertise to deliver outstanding results.",
     github: "https://github.com/Ankit2004meena",
     resume:
-      "https://drive.google.com/file/d/1hHlp_fqyfEpbNEP2XV1dvL14ifHfCY4k/view?usp=sharing",
+      "https://drive.google.com/file/d/1LERsdoOONjVW2vckEuhTLmgT0xi3bjut/view?usp=sharing",
     linkedin: "https://www.linkedin.com/in/ankit-meena-932581253/",
     Leetcode: "https://leetcode.com/u/Ankit_Meena_2004/",
 
@@ -28,16 +29,6 @@ export const Bio = {
           name: "React Js",
           image:
             "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K",
-        },
-        {
-          name: "Redux",
-          image:
-            "https://d33wubrfki0l68.cloudfront.net/0834d0215db51e91525a25acf97433051f280f2f/c30f5/img/redux.svg",
-        },
-        {
-          name: "Next Js",
-          image:
-            "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACTklEQVR4Ab1XAaQqURB9DyohSykREpRIQSAlBCoECKUFCSRCBBEAaSEABQEoCIEASCwAUICALgCo83do0//9v819XX845O7VnDkzOzP7JWGaBd3C3IJpQVjAHeJ+Rs9a97vKLGrBsB1KgMhEP3FMUUwt4ENMfxr1yQIU4SSjRkbeOZtERmHk6pXQVDlnkHh9S+QLTm1hkiz4n/gzFQuny9FoFLquE+i34x+n02k0m00UCoV3BIzn3MMJrVYLtp1OJ0cS/X4f5/MZhmG8IyDsWtDfEaDIn2232/3zbrvdxuFwwGg04qRBt+VnETBNE0IIkE2n07/erdfrWK/X6Ha73Hb9ZXII3G43ivy3dNRqtZe7lUoFs9mM6oBDwCQCgquALT1FT3a5XF7qIZ/PYzgcolqtcggIIgBZAgRKB6lCRalp2uM8k8mAVMrlchwC+DEBipycE4n5fP44j8ViKJVKSCaTbAJCpgaez4vFIsjoWa/XA50FAgEkEgmEw2F2CkxZBZ5Br5tt1ITcbjd8Ph88Hg+7CBefECCsVitS4aVJcV9D/VMCVITk/Hq9YrPZyBBo2a1YMGvAcQYcj0cCtWMugcdYNhjDiBrP25mx3++x3W6RzWZZ8isfxzQLlsslJpMJpYY5jhkqcOH1ejEYDDAej9FoNOByuZxGsfqVzC7KTqcDSkkqleKsZOqX0mAwiHK5DGrJfr+fs5SqX8sjkQji8ThCoRC+v78Za7l6JagrUh3YkUuZpqgwDaecc9VYSDoV5Fg+at7n+eLN57kuE/EvzHr/Kvs31aYAAAAASUVORK5CYII=",
         },
         {
           name: "HTML",
@@ -126,64 +117,37 @@ export const Bio = {
     },
   ];
   export const projects = [
-    {
+   {
       id: 9,
-      title: "User Authentication",
-      date: "Jun 2023 - Jul 2023",
+      title: "INTERNSHALA CLONE",
+      date: "Jun 2024 - AUGUST 2024",
       description:
-        "User Authentication is a web application designed to authenticate user using jwt and token Method making our system secure from unauthorized access .It also provide us logout and profile options too",
-      image:login,
+        "It is a clone of intershala website which provide internship and job to student with multilanguage support and OTP based authentication system.",
+      image:internshala,
       tags: [
-        "JWT",
         "React Js",
+        "Node Js",
+        "Express Js",
         "MongoDb",
-        "Node Js",
-        "Express Js",
-        "Redux",
+        "i18next",
+        "Email js"
       ],
       category: "web app",
-      github: "https://github.com/rishavchanda/Trackify",
-      webapp: "https://trackify.duckdns.org",
+   
+      webapp: "https://internworld.netlify.app/",
     },
-    {
-      id: 9,
-      title: "E-cart",
-      date: "Jun 2023 - Jul 2023",
-      description:
-        "It is a e-commerce website which enable user to filter the product based on price ,put them in favourite and dedicated cart is their also.",
-      image:E_cart,
-      tags: [
-        "React Js",
-        "Node Js",
-        "Express Js",
-      ],
-      category: "web app",
-      github: "https://github.com/rishavchanda/Trackify",
-      webapp: "https://trackify.duckdns.org",
-    },
+    
     {
       id: 4,
       title: "Chatting Application",
       date: "Jul 2021",
       description:
-        "A Chatting Application  made with React JS And Backend. It has Phone Authentication, Real-time Database. It has a chat room where users can chat with each other. It has a sidebar where users can see all the chat person and can create a new chat .",
+        "A Chatting Application  made with React JS And Backend. It has  Real-time Database. It has a chat room where users can chat with each other. It has a sidebar where users can see all the chat person and can create a new chat .",
       image:chat,
       tags: ["React Js", "MongoDb", "Node Js", "Express Js"],
       category: "web app",
-      github: "https://github.com/rishavchanda/Whatsapp-Clone-React-Js",
-      webapp: "https://whatsapp-clone-rishav.web.app",
-    },
-    {
-      id: 5,
-      title: "Meal finding app",
-      date: "Jun 2021",
-      description:
-        " A meal finding app allows us to find our meal and put them in favourite and also tells their receipe",
-      image:Meal,
-      tags: ["React Js", "Node JS"],
-      category: "web app",
-      github: "https://github.com/rishavchanda/Todo-Web-App",
-      webapp: "https://rishav-react-todo.netlify.app/",
+  
+      webapp: "https://chat-master.onrender.com/login",
     },
     {
       id: 6,
@@ -195,10 +159,50 @@ export const Bio = {
         qrcode,
       tags: ["React Js", "Node JS"],
       category: "web app",
-      github: "https://github.com/rishavchanda/Breaking-Bad",
-      webapp: "https://breaking-bad-webapp.netlify.app",
+     
+      webapp: "https://precious-gingersnap-f645e0.netlify.app/",
+    },
+    {
+      id: 6,
+      title: "Task Manager",
+      date: "Jun 2023",
+      description:
+        "A simple react app that is able to use make notes where one can delete and update the notes.",
+      image:
+        notes,
+      tags: ["React Js", "Node JS"],
+      category: "web app",
+     
+      webapp: "https://poetic-gelato-ef113c.netlify.app/",
+    },
+    {
+      id: 5,
+      title: "Meal finding app",
+      date: "Jun 2021",
+      description:
+        " A meal finding app allows us to find our meal and put them in favourite and also tells their receipe",
+      image:Meal,
+      tags: ["React Js", "Node JS"],
+      category: "web app"
+      
+     
     },
     
+{
+      id: 9,
+      title: "E-cart",
+      date: "Jun 2023 - Jul 2023",
+      description:
+        "It is a e-commerce website which enable user to filter the product based on price ,put them in favourite and dedicated cart is their also.",
+      image:E_cart,
+      tags: [
+        "React Js",
+        "Node Js",
+        "Express Js",
+      ],
+      category: "web app"
+      
+    },
    
   ];
   

@@ -118,7 +118,7 @@ const ProjectCards = ({project}) => {
                 <Tag>{tag}</Tag>
                 ))}
             </Tags>
-            <Details>
+            <Details onClick={() => window.open(project.webapp, "_blank")}>
                 <Title>{project.title}</Title>
                 <Date>{project.date}</Date>
                 <Description>{project.description}</Description>
